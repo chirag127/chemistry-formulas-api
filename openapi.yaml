@@ -1,0 +1,89 @@
+openapi: 3.1.0
+info:
+  title: Chemistry Formulas
+  description: Organic, inorganic, and physical chemistry formulas and reactions
+  version: 1.0.0
+  license:
+    name: CC0-1.0
+  contact:
+    name: Oriz Free Public APIs
+    url: https://oriz.in/apis/chemistry-formulas
+servers:
+  - url: https://chirag127.github.io/chemistry-formulas-api
+    description: GitHub Pages
+paths:
+  /api/v1/data.json:
+    get:
+      summary: Chemistry Formulas
+      description: Organic, inorganic, and physical chemistry formulas and reactions
+      operationId: listData
+      responses:
+        '200':
+          description: JSON array
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: object
+                  properties: {
+                            "id": {
+                                      "type": "string"
+                            },
+                            "name": {
+                                      "type": "string"
+                            },
+                            "status": {
+                                      "type": "string"
+                            },
+                            "source": {
+                                      "type": "string"
+                            }
+                  }
+  /api/v1/individual/{id}.json:
+    get:
+      summary: Get single record
+      operationId: getRecord
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema: { type: string }
+      responses:
+        '200':
+          description: Record object
+          content:
+            application/json:
+              schema:
+                type: object
+                properties: {
+                            "id": {
+                                      "type": "string"
+                            },
+                            "name": {
+                                      "type": "string"
+                            },
+                            "status": {
+                                      "type": "string"
+                            },
+                            "source": {
+                                      "type": "string"
+                            }
+                  }
+        '404': { description: Not found }
+  /api/v1/search-index.json:
+    get:
+      summary: Search index
+      operationId: getSearchIndex
+      responses:
+        '200': { description: Search index }
+  /api/v1/meta.json:
+    get:
+      summary: Dataset metadata
+      operationId: getMeta
+      responses:
+        '200':
+          description: Metadata
+          content:
+            application/json:
+              schema: { type: object }

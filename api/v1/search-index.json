@@ -1,0 +1,11 @@
+{
+  "byId": {
+    "chemistry-formulas": {
+      "id": "chemistry-formulas",
+      "name": "Chemistry Formulas",
+      "status": "scaffold",
+      "source": "Reference compilation"
+    }
+  },
+  "searchableFields": []
+}
