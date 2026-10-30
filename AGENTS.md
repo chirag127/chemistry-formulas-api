@@ -23,7 +23,7 @@ Windows local interpreter: `py` works in place of `python`.
 - **Preserve last-known-good data on failure.** The fetch script writes only after a successful run; do not commit partial downloads.
 - **Tests before commit:** `python -m pytest -q` and `python scripts/validate.py`.
 - **No secrets** in files, issues, logs, or commit messages.
-- **Git:** main branch, conventional commits, no force-push. The update workflow commits generated data back to main.
+- **Git:** repository default branch (`master` at the time of writing), conventional commits, no force-push. The update workflow commits generated data back to main.
 - **Refresh cadence:** manual or monthly workflow dispatch. PubChem content can change; review new or changed records before publishing.
 - **Endpoints:** keep `openapi.yaml`, README, and website in sync with the generated `api/v1` paths.
 
