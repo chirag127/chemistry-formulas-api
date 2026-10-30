@@ -1,0 +1,12 @@
+{
+  "id": "sodium-nitrate",
+  "name": "Sodium nitrate",
+  "formula": "NNaO3",
+  "molecular_weight": 84.995,
+  "iupac_name": "sodium nitrate",
+  "smiles": "[N+](=O)([O-])[O-].[Na+]",
+  "pubchem_cid": 24268,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24268"
+}

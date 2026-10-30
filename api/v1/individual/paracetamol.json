@@ -1,0 +1,12 @@
+{
+  "id": "paracetamol",
+  "name": "Paracetamol",
+  "formula": "C8H9NO2",
+  "molecular_weight": 151.16,
+  "iupac_name": "N-(4-hydroxyphenyl)acetamide",
+  "smiles": "CC(=O)NC1=CC=C(C=C1)O",
+  "pubchem_cid": 1983,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1983"
+}

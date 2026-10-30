@@ -1,0 +1,12 @@
+{
+  "id": "toluene",
+  "name": "Toluene",
+  "formula": "C7H8",
+  "molecular_weight": 92.14,
+  "iupac_name": "toluene",
+  "smiles": "CC1=CC=CC=C1",
+  "pubchem_cid": 1140,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1140"
+}

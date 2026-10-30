@@ -1,0 +1,12 @@
+{
+  "id": "sulfur-dioxide",
+  "name": "Sulfur dioxide",
+  "formula": "O2S",
+  "molecular_weight": 64.07,
+  "iupac_name": "sulfur dioxide",
+  "smiles": "O=S=O",
+  "pubchem_cid": 1119,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1119"
+}

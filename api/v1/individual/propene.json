@@ -1,0 +1,12 @@
+{
+  "id": "propene",
+  "name": "Propene",
+  "formula": "C3H6",
+  "molecular_weight": 42.08,
+  "iupac_name": "prop-1-ene",
+  "smiles": "CC=C",
+  "pubchem_cid": 8252,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8252"
+}

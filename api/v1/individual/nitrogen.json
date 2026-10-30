@@ -1,0 +1,12 @@
+{
+  "id": "nitrogen",
+  "name": "Nitrogen",
+  "formula": "N2",
+  "molecular_weight": 28.014,
+  "iupac_name": "molecular nitrogen",
+  "smiles": "N#N",
+  "pubchem_cid": 947,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/947"
+}

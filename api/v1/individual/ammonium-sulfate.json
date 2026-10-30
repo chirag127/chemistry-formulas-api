@@ -1,0 +1,12 @@
+{
+  "id": "ammonium-sulfate",
+  "name": "Ammonium sulfate",
+  "formula": "H8N2O4S",
+  "molecular_weight": 132.14,
+  "iupac_name": "diazanium;sulfate",
+  "smiles": "[NH4+].[NH4+].[O-]S(=O)(=O)[O-]",
+  "pubchem_cid": 6097028,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6097028"
+}

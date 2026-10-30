@@ -1,0 +1,12 @@
+{
+  "id": "carbon-dioxide",
+  "name": "Carbon dioxide",
+  "formula": "CO2",
+  "molecular_weight": 44.009,
+  "iupac_name": "carbon dioxide",
+  "smiles": "C(=O)=O",
+  "pubchem_cid": 280,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/280"
+}

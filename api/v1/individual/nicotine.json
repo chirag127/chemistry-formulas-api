@@ -1,0 +1,12 @@
+{
+  "id": "nicotine",
+  "name": "Nicotine",
+  "formula": "C10H14N2",
+  "molecular_weight": 162.23,
+  "iupac_name": "3-[(2S)-1-methylpyrrolidin-2-yl]pyridine",
+  "smiles": "CN1CCCC1C2=CN=CC=C2",
+  "pubchem_cid": 89594,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/89594"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sodium-fluoride",
+  "name": "Sodium fluoride",
+  "formula": "FNa",
+  "molecular_weight": 41.9881724,
+  "iupac_name": "sodium fluoride",
+  "smiles": "[F-].[Na+]",
+  "pubchem_cid": 5235,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5235"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "phenol",
+  "name": "Phenol",
+  "formula": "C6H6O",
+  "molecular_weight": 94.11,
+  "iupac_name": "phenol",
+  "smiles": "C1=CC=C(C=C1)O",
+  "pubchem_cid": 996,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/996"
+}

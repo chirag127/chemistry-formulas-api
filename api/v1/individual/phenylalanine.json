@@ -1,0 +1,12 @@
+{
+  "id": "phenylalanine",
+  "name": "Phenylalanine",
+  "formula": "C9H11NO2",
+  "molecular_weight": 165.19,
+  "iupac_name": "(2S)-2-amino-3-phenylpropanoic acid",
+  "smiles": "C1=CC=C(C=C1)CC(C(=O)O)N",
+  "pubchem_cid": 6140,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6140"
+}

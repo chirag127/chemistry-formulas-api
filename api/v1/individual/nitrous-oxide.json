@@ -1,0 +1,12 @@
+{
+  "id": "nitrous-oxide",
+  "name": "Nitrous oxide",
+  "formula": "N2O",
+  "molecular_weight": 44.013,
+  "iupac_name": "nitrous oxide",
+  "smiles": "[N-]=[N+]=O",
+  "pubchem_cid": 948,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/948"
+}

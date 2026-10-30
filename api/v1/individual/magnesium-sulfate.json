@@ -1,0 +1,12 @@
+{
+  "id": "magnesium-sulfate",
+  "name": "Magnesium sulfate",
+  "formula": "MgO4S",
+  "molecular_weight": 120.37,
+  "iupac_name": "magnesium sulfate",
+  "smiles": "[O-]S(=O)(=O)[O-].[Mg+2]",
+  "pubchem_cid": 24083,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24083"
+}

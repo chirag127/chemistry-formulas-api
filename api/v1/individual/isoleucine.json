@@ -1,0 +1,12 @@
+{
+  "id": "isoleucine",
+  "name": "Isoleucine",
+  "formula": "C6H13NO2",
+  "molecular_weight": 131.17,
+  "iupac_name": "(2S,3S)-2-amino-3-methylpentanoic acid",
+  "smiles": "CCC(C)C(C(=O)O)N",
+  "pubchem_cid": 6306,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6306"
+}

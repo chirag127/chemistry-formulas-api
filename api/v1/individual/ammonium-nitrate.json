@@ -1,0 +1,12 @@
+{
+  "id": "ammonium-nitrate",
+  "name": "Ammonium nitrate",
+  "formula": "H4N2O3",
+  "molecular_weight": 80.044,
+  "iupac_name": "azanium nitrate",
+  "smiles": "[NH4+].[N+](=O)([O-])[O-]",
+  "pubchem_cid": 22985,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/22985"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ethene",
+  "name": "Ethene",
+  "formula": "C2H4",
+  "molecular_weight": 28.05,
+  "iupac_name": "ethene",
+  "smiles": "C=C",
+  "pubchem_cid": 6325,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6325"
+}

@@ -1,66 +1,73 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Chemistry Formulas — Oriz Free Public APIs</title>
-  <meta name="description" content="Organic, inorganic, and physical chemistry formulas and reactions. Static JSON API, zero cost.">
-  <style>
-    :root { --bg:#0f172a; --surface:#1e293b; --text:#e2e8f0; --muted:#94a3b8; --accent:#38bdf8; --border:#334155; --ok:#4ade80; }
-    *{box-sizing:border-box;margin:0} body{font-family:system-ui;background:var(--bg);color:var(--text);line-height:1.6;max-width:900px;margin:0 auto;padding:2rem 1rem}
-    header{margin-bottom:2rem} h1{font-size:1.6rem;font-weight:700}
-    .eyebrow{color:var(--accent);font-size:.8rem;text-transform:uppercase;letter-spacing:.05em;font-weight:600}
-    .meta{color:var(--muted);font-size:.9rem;margin-top:.5rem}
-    .badge{display:inline-block;padding:.15em .6em;border-radius:999px;font-size:.75rem;font-weight:600;margin-right:.4em}
-    .badge-ok{background:rgba(74,222,128,.15);color:var(--ok)} .badge-warn{background:rgba(251,191,36,.15);color:#fbbf24} .badge-info{background:rgba(56,189,248,.15);color:var(--accent)}
-    .card{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:1.25rem;margin-bottom:1rem}
-    .card h2{font-size:1.1rem;margin-bottom:.75rem}
-    .endpoint{background:#0b1220;border:1px solid var(--border);border-radius:8px;padding:1rem;margin-bottom:.75rem}
-    .endpoint code{font-family:ui-monospace,monospace;font-size:.85rem}
-    .method{color:var(--accent);font-weight:700;margin-right:.5rem}
-    .url{color:var(--text)}
-    .try-it{display:flex;gap:.5rem;margin-top:.5rem}
-    .try-it input{flex:1;background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:.5rem .75rem;color:var(--text);font-size:.85rem}
-    .try-it button{background:var(--accent);color:#0f172a;border:none;border-radius:6px;padding:.5rem 1rem;font-weight:600;cursor:pointer;font-size:.85rem}
-    .try-it button:hover{opacity:.9} pre{background:#0b1220;border:1px solid var(--border);border-radius:8px;padding:1rem;overflow-x:auto;font-size:.8rem;margin-top:.5rem}
-    .status-bar{display:flex;gap:1rem;flex-wrap:wrap;margin-bottom:1rem}
-    .status-item{display:flex;align-items:center;gap:.4rem;font-size:.85rem;color:var(--muted)}
-    .status-dot{width:8px;height:8px;border-radius:50%;background:var(--ok)}
-    .search-box{width:100%;background:var(--bg);border:1px solid var(--border);border-radius:8px;padding:.75rem 1rem;color:var(--text);font-size:1rem;margin-bottom:1rem}
-    .results{display:grid;gap:.5rem}
-    .result-row{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:.75rem 1rem;display:flex;justify-content:space-between;align-items:center}
-    .result-row:hover{border-color:var(--accent)} .result-name{font-weight:600} .result-meta{color:var(--muted);font-size:.85rem}
-    footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--muted);font-size:.8rem} a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
-  </style>
-</head>
-<body>
-  <header>
-    <div class="eyebrow">Oriz Free Public APIs</div>
-    <h1>Chemistry Formulas</h1>
-    <p class="meta"><span class="badge badge-ok">Active</span><span class="badge badge-info">CC0-1.0</span><span class="badge badge-info">1 records</span> Organic, inorganic, and physical chemistry formulas and reactions · Static JSON · Zero cost</p>
-  </header>
-  <div class="status-bar"><div class="status-item"><span class="status-dot"></span> Healthy</div><div class="status-item">Records: 1</div><div class="status-item">Version: 1.0.0</div><div class="status-item">Updated: 2026-08-26</div><div class="status-item">Source: <a href="Reference compilation">Reference compilation</a></div></div>
-  <div class="card"><h2>Try it</h2>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/data.json</span></code>
-      <div class="try-it"><input type="text" value="https://chirag127.github.io/chemistry-formulas-api/api/v1/data.json" readonly><button onclick="copy(this)">Copy</button></div></div>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/individual/{id}.json</span></code>
-      <div class="try-it"><input type="text" id="recordId" placeholder="record-id" value=""><button onclick="fetchRecord()">Fetch</button></div><pre id="recordResult">// Enter ID and click Fetch</pre></div>
-  </div>
-  <div class="card"><h2>Search</h2><input class="search-box" id="searchInput" placeholder="Search records..." oninput="search(this.value)"><div class="results" id="searchResults"></div></div>
-  <div class="card"><h2>Endpoints</h2>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/data.json</span></code><p style="color:var(--muted);font-size:.85rem;margin-top:.4rem;">All 1 records</p></div>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/individual/{id}.json</span></code><p style="color:var(--muted);font-size:.85rem;margin-top:.4rem;">Single record by ID</p></div>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/search-index.json</span></code><p style="color:var(--muted);font-size:.85rem;margin-top:.4rem;">Client-side search index</p></div>
-    <div class="endpoint"><code><span class="method">GET</span><span class="url">/api/v1/meta.json</span></code><p style="color:var(--muted);font-size:.85rem;margin-top:.4rem;">Dataset metadata</p></div>
-  </div>
-  <div class="card"><h2>Schema</h2><p style="color:var(--muted);font-size:.85rem;margin-bottom:.75rem;">JSON Schema validates every record. <a href="schemas/data.json">View schema</a></p></div>
-  <div class="card"><h2>OpenAPI</h2><p style="color:var(--muted);font-size:.85rem;">Full OpenAPI 3.1.0 spec: <a href="openapi.yaml">openapi.yaml</a></p></div>
-  <footer><p>Data: <a href="Reference compilation">Reference compilation</a> · License: CC0-1.0</p><p>Part of <a href="https://oriz.in/apis">Oriz Free Public APIs</a> · <a href="https://github.com/chirag127/chemistry-formulas-api">GitHub</a></p></footer>
-  <script>
-    let records=[], index={byId:{}, byName:{}, byCapital:{}};
-    async function loadData(){ const r=await fetch('api/v1/data.json'); records=await r.json(); const i=await fetch('api/v1/search-index.json'); index=await i.json(); }
-    function copy(btn){ const i=btn.previousElementSibling; i.select(); navigator.clipboard.writeText(i.value); btn.textContent='Copied!'; setTimeout(()=>btn.textContent='Copy',1500); }
-    async function fetchRecord(){ const id=document.getElementById('recordId').value.trim(); const pre=document.getElementById('recordResult'); try{ const r=await fetch(`api/v1/individual/${id}.json`); const d=await r.json(); pre.textContent=JSON.stringify(d,null,2); }catch(e){ pre.textContent='// Not found: '+id; } }
-    function search(q){ const res=document.getElementById('searchResults'); if(!q||q.length<2){res.innerHTML='';return} const t=q.toLowerCase(); const matched=new Set(); for(const [p,ids] of Object.entries(index.byName||{})){ if(p.startsWith(t)) ids.forEach(id=>matched.add(id)) } for(const [p,ids] of Object.entries(index.byCapital||{})){ if(p.startsWith(t)) ids.forEach(id=>matched.add(id)) } const items=Array.from(matched).map(id=>index.byId[id]).filter(Boolean); res.innerHTML=items.map(s=>`<div class="result-row"><div><div class="result-name">${s.name||s.title||s.code||s.id}</div><div class="result-meta">${s.capital||s.state||''} · ${s.status||''} · ${s.id}</div></div><code style="font-size:.8rem;color:var(--muted)">${s.id}</code></div>`).join(''); }
-    loadData();
-  </script>
-</body></html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chemistry Formulas API</title>
+    <meta
+      name="description"
+      content="Free static JSON API for chemical formulas, molecular weights, IUPAC names, SMILES, and PubChem identifiers."
+    />
+    <style>
+      :root { color-scheme: light; --cream: #f6f1e7; --ink: #1c1917; --muted: #625b54; --orange: #c2410c; --line: #ded5c8; }
+      * { box-sizing: border-box; }
+      body { margin: 0; background: var(--cream); color: var(--ink); font: 18px/1.6 "Times New Roman", Times, serif; }
+      main { width: min(960px, calc(100% - 2rem)); margin: 0 auto; padding: 3rem 0 5rem; }
+      .eyebrow { color: var(--orange); font: 700 0.72rem/1.2 ui-monospace, monospace; letter-spacing: 0.14em; text-transform: uppercase; }
+      h1 { margin: 0.35rem 0 0.6rem; font-size: clamp(2.2rem, 6vw, 4rem); line-height: 0.98; }
+      h2 { margin-top: 2rem; font-size: 1.45rem; }
+      p { max-width: 70ch; color: var(--muted); }
+      a { color: var(--orange); }
+      .meta { display: flex; flex-wrap: wrap; gap: 0.35rem 1rem; margin: 1rem 0; color: var(--muted); font-size: 0.9rem; }
+      .card { padding: 1rem 1.2rem; margin: 1rem 0; border: 1px solid var(--line); border-radius: 10px; background: #fffaf2; }
+      code, pre { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 0.85rem; }
+      pre { overflow-x: auto; padding: 1rem; border-radius: 8px; background: var(--ink); color: #f8f4ec; }
+      table { width: 100%; border-collapse: collapse; font-size: 0.94rem; }
+      th, td { padding: 0.55rem 0.6rem; border-bottom: 1px solid var(--line); text-align: left; }
+      th { font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+      .badge { display: inline-block; padding: 0.1rem 0.4rem; border: 1px solid var(--line); border-radius: 999px; font-size: 0.72rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <p class="eyebrow">ORIZ.IN free public API</p>
+      <h1>Chemistry Formulas</h1>
+      <p>Static JSON for chemical compounds: formulas, molecular weights, IUPAC names, SMILES, and PubChem identifiers. No authentication, no rate limit, and no server.</p>
+      <div class="meta">
+        <span id="count">Loading record count…</span>
+        <span>Source: PubChem</span>
+        <span class="badge">Static JSON</span>
+      </div>
+
+      <h2>Endpoints</h2>
+      <table>
+        <thead><tr><th>Endpoint</th><th>Purpose</th></tr></thead>
+        <tbody>
+          <tr><td><code>/api/v1/data.json</code></td><td>All compound records</td></tr>
+          <tr><td><code>/api/v1/individual/{id}.json</code></td><td>One compound by id</td></tr>
+          <tr><td><code>/api/v1/search-index.json</code></td><td>Compact search index</td></tr>
+          <tr><td><code>/api/v1/meta.json</code></td><td>Count, source, schema metadata</td></tr>
+        </tbody>
+      </table>
+
+      <h2>Example</h2>
+      <pre><code>curl https://chirag127.github.io/chemistry-formulas-api/api/v1/individual/ethanol.json</code></pre>
+      <div class="card">
+        <p><strong>Data source:</strong> <a href="https://pubchem.ncbi.nlm.nih.gov/" rel="noopener noreferrer">PubChem</a>, U.S. National Library of Medicine. Code is MIT; data remains subject to PubChem/NLM terms.</p>
+        <p><a href="./openapi.yaml">OpenAPI contract</a> · <a href="https://github.com/chirag127/chemistry-formulas-api">GitHub repository</a></p>
+      </div>
+    </main>
+    <script>
+      fetch('api/v1/meta.json')
+        .then((response) => response.json())
+        .then((meta) => {
+          const count = document.querySelector('#count');
+          if (count) count.textContent = `${meta.recordCount} compounds`;
+        })
+        .catch(() => {
+          const count = document.querySelector('#count');
+          if (count) count.textContent = 'Record count unavailable';
+        });
+    </script>
+  </body>
+</html>

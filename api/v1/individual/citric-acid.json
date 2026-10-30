@@ -1,0 +1,12 @@
+{
+  "id": "citric-acid",
+  "name": "Citric acid",
+  "formula": "C6H8O7",
+  "molecular_weight": 192.12,
+  "iupac_name": "2-hydroxypropane-1,2,3-tricarboxylic acid",
+  "smiles": "C(C(=O)O)C(CC(=O)O)(C(=O)O)O",
+  "pubchem_cid": 311,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/311"
+}

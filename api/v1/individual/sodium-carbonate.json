@@ -1,0 +1,12 @@
+{
+  "id": "sodium-carbonate",
+  "name": "Sodium carbonate",
+  "formula": "CNa2O3",
+  "molecular_weight": 105.988,
+  "iupac_name": "disodium;carbonate",
+  "smiles": "C(=O)([O-])[O-].[Na+].[Na+]",
+  "pubchem_cid": 10340,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10340"
+}

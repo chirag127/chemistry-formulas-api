@@ -1,0 +1,12 @@
+{
+  "id": "sodium-bicarbonate",
+  "name": "Sodium bicarbonate",
+  "formula": "CHNaO3",
+  "molecular_weight": 84.007,
+  "iupac_name": "sodium hydrogen carbonate",
+  "smiles": "C(=O)(O)[O-].[Na+]",
+  "pubchem_cid": 516892,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/516892"
+}

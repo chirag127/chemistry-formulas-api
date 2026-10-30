@@ -1,0 +1,12 @@
+{
+  "id": "lysine",
+  "name": "Lysine",
+  "formula": "C6H14N2O2",
+  "molecular_weight": 146.19,
+  "iupac_name": "(2S)-2,6-diaminohexanoic acid",
+  "smiles": "C(CCN)CC(C(=O)O)N",
+  "pubchem_cid": 5962,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5962"
+}

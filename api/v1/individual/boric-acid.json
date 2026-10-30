@@ -1,0 +1,12 @@
+{
+  "id": "boric-acid",
+  "name": "Boric acid",
+  "formula": "BH3O3",
+  "molecular_weight": 61.84,
+  "iupac_name": "boric acid",
+  "smiles": "B(O)(O)O",
+  "pubchem_cid": 7628,
+  "category": "acid",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7628"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "nitrogen-dioxide",
+  "name": "Nitrogen dioxide",
+  "formula": "NO2",
+  "molecular_weight": 46.006,
+  "iupac_name": null,
+  "smiles": "N(=O)[O]",
+  "pubchem_cid": 3032552,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3032552"
+}

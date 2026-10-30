@@ -1,0 +1,12 @@
+{
+  "id": "nitric-acid",
+  "name": "Nitric acid",
+  "formula": "HNO3",
+  "molecular_weight": 63.013,
+  "iupac_name": "nitric acid",
+  "smiles": "[N+](=O)(O)[O-]",
+  "pubchem_cid": 944,
+  "category": "acid",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/944"
+}

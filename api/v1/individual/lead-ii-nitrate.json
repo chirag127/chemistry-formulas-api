@@ -1,0 +1,12 @@
+{
+  "id": "lead-ii-nitrate",
+  "name": "Lead(II) nitrate",
+  "formula": "N2O6Pb",
+  "molecular_weight": 331.0,
+  "iupac_name": "lead(2+) dinitrate",
+  "smiles": "[N+](=O)([O-])[O-].[N+](=O)([O-])[O-].[Pb+2]",
+  "pubchem_cid": 24924,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24924"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "iron-iii-chloride",
+  "name": "Iron(III) chloride",
+  "formula": "Cl3Fe",
+  "molecular_weight": 162.2,
+  "iupac_name": "trichloroiron",
+  "smiles": "Cl[Fe](Cl)Cl",
+  "pubchem_cid": 24380,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24380"
+}

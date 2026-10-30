@@ -1,0 +1,12 @@
+{
+  "id": "hydrochloric-acid",
+  "name": "Hydrochloric acid",
+  "formula": "ClH",
+  "molecular_weight": 36.46,
+  "iupac_name": "chlorane",
+  "smiles": "Cl",
+  "pubchem_cid": 313,
+  "category": "acid",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/313"
+}

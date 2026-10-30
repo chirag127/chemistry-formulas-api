@@ -1,0 +1,12 @@
+{
+  "id": "hexane",
+  "name": "Hexane",
+  "formula": "C6H14",
+  "molecular_weight": 86.18,
+  "iupac_name": "hexane",
+  "smiles": "CCCCCC",
+  "pubchem_cid": 8058,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8058"
+}

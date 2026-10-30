@@ -1,0 +1,12 @@
+{
+  "id": "octane",
+  "name": "Octane",
+  "formula": "C8H18",
+  "molecular_weight": 114.23,
+  "iupac_name": "octane",
+  "smiles": "CCCCCCCC",
+  "pubchem_cid": 356,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/356"
+}

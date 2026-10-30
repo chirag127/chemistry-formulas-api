@@ -1,0 +1,12 @@
+{
+  "id": "potassium-permanganate",
+  "name": "Potassium permanganate",
+  "formula": "KMnO4",
+  "molecular_weight": 158.034,
+  "iupac_name": "potassium permanganate",
+  "smiles": "[O-][Mn](=O)(=O)=O.[K+]",
+  "pubchem_cid": 516875,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/516875"
+}

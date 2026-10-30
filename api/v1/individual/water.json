@@ -1,0 +1,12 @@
+{
+  "id": "water",
+  "name": "Water",
+  "formula": "H2O",
+  "molecular_weight": 18.015,
+  "iupac_name": "oxidane",
+  "smiles": "O",
+  "pubchem_cid": 962,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/962"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sucrose",
+  "name": "Sucrose",
+  "formula": "C12H22O11",
+  "molecular_weight": 342.3,
+  "iupac_name": "(2R,3R,4S,5S,6R)-2-[(2S,3S,4S,5R)-3,4-dihydroxy-2,5-bis(hydroxymethyl)oxolan-2-yl]oxy-6-(hydroxymethyl)oxane-3,4,5-triol",
+  "smiles": "C(C1C(C(C(C(O1)OC2(C(C(C(O2)CO)O)O)CO)O)O)O)O",
+  "pubchem_cid": 5988,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5988"
+}

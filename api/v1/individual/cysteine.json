@@ -1,0 +1,12 @@
+{
+  "id": "cysteine",
+  "name": "Cysteine",
+  "formula": "C3H7NO2S",
+  "molecular_weight": 121.16,
+  "iupac_name": "(2R)-2-amino-3-sulfanylpropanoic acid",
+  "smiles": "C(C(C(=O)O)N)S",
+  "pubchem_cid": 5862,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5862"
+}

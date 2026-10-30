@@ -1,0 +1,12 @@
+{
+  "id": "acetaldehyde",
+  "name": "Acetaldehyde",
+  "formula": "C2H4O",
+  "molecular_weight": 44.05,
+  "iupac_name": "acetaldehyde",
+  "smiles": "CC=O",
+  "pubchem_cid": 177,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/177"
+}

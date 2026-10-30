@@ -1,0 +1,12 @@
+{
+  "id": "alanine",
+  "name": "Alanine",
+  "formula": "C3H7NO2",
+  "molecular_weight": 89.09,
+  "iupac_name": "(2S)-2-aminopropanoic acid",
+  "smiles": "CC(C(=O)O)N",
+  "pubchem_cid": 5950,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5950"
+}

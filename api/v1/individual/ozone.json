@@ -1,0 +1,12 @@
+{
+  "id": "ozone",
+  "name": "Ozone",
+  "formula": "O3",
+  "molecular_weight": 47.998,
+  "iupac_name": "ozone",
+  "smiles": "[O-][O+]=O",
+  "pubchem_cid": 24823,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24823"
+}

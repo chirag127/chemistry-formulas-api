@@ -1,0 +1,12 @@
+{
+  "id": "arginine",
+  "name": "Arginine",
+  "formula": "C6H14N4O2",
+  "molecular_weight": 174.2,
+  "iupac_name": "(2S)-2-amino-5-(diaminomethylideneamino)pentanoic acid",
+  "smiles": "C(CC(C(=O)O)N)CN=C(N)N",
+  "pubchem_cid": 6322,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6322"
+}

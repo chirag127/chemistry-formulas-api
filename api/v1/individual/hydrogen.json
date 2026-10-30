@@ -1,0 +1,12 @@
+{
+  "id": "hydrogen",
+  "name": "Hydrogen",
+  "formula": "H2",
+  "molecular_weight": 2.016,
+  "iupac_name": "molecular hydrogen",
+  "smiles": "[HH]",
+  "pubchem_cid": 783,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/783"
+}

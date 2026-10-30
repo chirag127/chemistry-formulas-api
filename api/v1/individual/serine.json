@@ -1,0 +1,12 @@
+{
+  "id": "serine",
+  "name": "Serine",
+  "formula": "C3H7NO3",
+  "molecular_weight": 105.09,
+  "iupac_name": "(2S)-2-amino-3-hydroxypropanoic acid",
+  "smiles": "C(C(C(=O)O)N)O",
+  "pubchem_cid": 5951,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5951"
+}

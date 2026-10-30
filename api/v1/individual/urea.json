@@ -1,0 +1,12 @@
+{
+  "id": "urea",
+  "name": "Urea",
+  "formula": "CH4N2O",
+  "molecular_weight": 60.056,
+  "iupac_name": "urea",
+  "smiles": "C(=O)(N)N",
+  "pubchem_cid": 1176,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1176"
+}

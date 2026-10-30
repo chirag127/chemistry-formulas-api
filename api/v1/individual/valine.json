@@ -1,0 +1,12 @@
+{
+  "id": "valine",
+  "name": "Valine",
+  "formula": "C5H11NO2",
+  "molecular_weight": 117.15,
+  "iupac_name": "(2S)-2-amino-3-methylbutanoic acid",
+  "smiles": "CC(C)C(C(=O)O)N",
+  "pubchem_cid": 6287,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6287"
+}

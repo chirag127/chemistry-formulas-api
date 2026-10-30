@@ -1,0 +1,12 @@
+{
+  "id": "threonine",
+  "name": "Threonine",
+  "formula": "C4H9NO3",
+  "molecular_weight": 119.12,
+  "iupac_name": "(2S,3R)-2-amino-3-hydroxybutanoic acid",
+  "smiles": "CC(C(C(=O)O)N)O",
+  "pubchem_cid": 6288,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6288"
+}

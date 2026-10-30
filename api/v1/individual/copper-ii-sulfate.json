@@ -1,0 +1,12 @@
+{
+  "id": "copper-ii-sulfate",
+  "name": "Copper(II) sulfate",
+  "formula": "CuO4S",
+  "molecular_weight": 159.61,
+  "iupac_name": "copper sulfate",
+  "smiles": "[O-]S(=O)(=O)[O-].[Cu+2]",
+  "pubchem_cid": 24462,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24462"
+}

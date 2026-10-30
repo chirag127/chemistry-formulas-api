@@ -1,89 +1,172 @@
 openapi: 3.1.0
 info:
-  title: Chemistry Formulas
-  description: Organic, inorganic, and physical chemistry formulas and reactions
+  title: Chemistry Formulas API
+  description: >
+    A free static JSON API of 111 chemical compounds with molecular formulas,
+    molecular weights, IUPAC names, SMILES, PubChem identifiers, and teaching
+    categories. Data is fetched from PubChem and served from GitHub Pages.
   version: 1.0.0
   license:
-    name: CC0-1.0
+    name: MIT (code); data from PubChem/NLM
+    url: https://github.com/chirag127/chemistry-formulas-api/blob/main/LICENSE
   contact:
-    name: Oriz Free Public APIs
-    url: https://oriz.in/apis/chemistry-formulas
+    name: Chirag Singhal
+    url: https://oriz.in/
 servers:
   - url: https://chirag127.github.io/chemistry-formulas-api
     description: GitHub Pages
 paths:
   /api/v1/data.json:
     get:
-      summary: Chemistry Formulas
-      description: Organic, inorganic, and physical chemistry formulas and reactions
-      operationId: listData
+      summary: List all compounds
+      description: Returns every compound in the dataset as a JSON array.
+      operationId: listCompounds
       responses:
         '200':
-          description: JSON array
+          description: A JSON array of compound records.
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  type: object
-                  properties: {
-                            "id": {
-                                      "type": "string"
-                            },
-                            "name": {
-                                      "type": "string"
-                            },
-                            "status": {
-                                      "type": "string"
-                            },
-                            "source": {
-                                      "type": "string"
-                            }
-                  }
+                  $ref: '#/components/schemas/Compound'
   /api/v1/individual/{id}.json:
     get:
-      summary: Get single record
-      operationId: getRecord
+      summary: Get one compound
+      operationId: getCompound
       parameters:
         - name: id
           in: path
           required: true
-          schema: { type: string }
+          description: The URL-safe compound identifier, such as `ethanol`.
+          schema:
+            type: string
+            pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
       responses:
         '200':
-          description: Record object
+          description: A single compound record.
           content:
             application/json:
               schema:
-                type: object
-                properties: {
-                            "id": {
-                                      "type": "string"
-                            },
-                            "name": {
-                                      "type": "string"
-                            },
-                            "status": {
-                                      "type": "string"
-                            },
-                            "source": {
-                                      "type": "string"
-                            }
-                  }
-        '404': { description: Not found }
+                $ref: '#/components/schemas/Compound'
+        '404':
+          description: No compound exists for this id.
   /api/v1/search-index.json:
     get:
-      summary: Search index
+      summary: Get the search index
+      description: A compact name, formula, and category index for client-side search.
       operationId: getSearchIndex
       responses:
-        '200': { description: Search index }
-  /api/v1/meta.json:
-    get:
-      summary: Dataset metadata
-      operationId: getMeta
-      responses:
         '200':
-          description: Metadata
+          description: Search index keyed by compound id.
           content:
             application/json:
-              schema: { type: object }
+              schema:
+                $ref: '#/components/schemas/SearchIndex'
+  /api/v1/meta.json:
+    get:
+      summary: Get dataset metadata
+      operationId: getDatasetMeta
+      responses:
+        '200':
+          description: Record count, source, retrieval time, schema version, and license.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Meta'
+components:
+  schemas:
+    Compound:
+      type: object
+      additionalProperties: false
+      required:
+        - id
+        - name
+        - formula
+        - molecular_weight
+        - iupac_name
+        - smiles
+        - pubchem_cid
+        - category
+        - source
+        - source_url
+      properties:
+        id:
+          type: string
+          pattern: '^[a-z0-9]+(?:-[a-z0-9]+)*$'
+          example: ethanol
+        name:
+          type: string
+          example: Ethanol
+        formula:
+          type: string
+          example: C2H6O
+        molecular_weight:
+          type: number
+          exclusiveMinimum: 0
+          example: 46.07
+        iupac_name:
+          type: [string, 'null']
+          example: ethanol
+        smiles:
+          type: [string, 'null']
+          example: CCO
+        pubchem_cid:
+          type: integer
+          minimum: 1
+          example: 702
+        category:
+          type: string
+          enum: [organic, inorganic, element, acid, base, salt, oxide, biomolecule]
+          example: organic
+        source:
+          type: string
+          example: PubChem PUG REST (National Library of Medicine)
+        source_url:
+          type: string
+          format: uri
+          example: https://pubchem.ncbi.nlm.nih.gov/compound/702
+    SearchIndex:
+      type: object
+      additionalProperties: false
+      required: [count, searchableFields, byId]
+      properties:
+        count:
+          type: integer
+        searchableFields:
+          type: array
+          items:
+            type: string
+        byId:
+          type: object
+          additionalProperties:
+            type: object
+            required: [id, name, formula, category]
+            properties:
+              id:
+                type: string
+              name:
+                type: string
+              formula:
+                type: string
+              category:
+                type: string
+    Meta:
+      type: object
+      properties:
+        status:
+          type: string
+        recordCount:
+          type: integer
+        source:
+          type: string
+        sourceHome:
+          type: string
+          format: uri
+        license:
+          type: string
+        retrievedAt:
+          type: string
+          format: date-time
+        schemaVersion:
+          type: string

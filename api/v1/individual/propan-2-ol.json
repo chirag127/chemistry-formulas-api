@@ -1,0 +1,12 @@
+{
+  "id": "propan-2-ol",
+  "name": "Propan-2-ol",
+  "formula": "C3H8O",
+  "molecular_weight": 60.1,
+  "iupac_name": "propan-2-ol",
+  "smiles": "CC(C)O",
+  "pubchem_cid": 3776,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3776"
+}

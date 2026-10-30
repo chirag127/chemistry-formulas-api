@@ -1,0 +1,12 @@
+{
+  "id": "carbon-monoxide",
+  "name": "Carbon monoxide",
+  "formula": "CO",
+  "molecular_weight": 28.01,
+  "iupac_name": "carbon monoxide",
+  "smiles": "[C-]#[O+]",
+  "pubchem_cid": 281,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/281"
+}

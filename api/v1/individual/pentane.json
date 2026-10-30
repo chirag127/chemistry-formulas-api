@@ -1,0 +1,12 @@
+{
+  "id": "pentane",
+  "name": "Pentane",
+  "formula": "C5H12",
+  "molecular_weight": 72.15,
+  "iupac_name": "pentane",
+  "smiles": "CCCCC",
+  "pubchem_cid": 8003,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/8003"
+}

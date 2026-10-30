@@ -1,0 +1,12 @@
+{
+  "id": "barium-chloride",
+  "name": "Barium chloride",
+  "formula": "BaCl2",
+  "molecular_weight": 208.23,
+  "iupac_name": "barium(2+) dichloride",
+  "smiles": "[Cl-].[Cl-].[Ba+2]",
+  "pubchem_cid": 25204,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/25204"
+}

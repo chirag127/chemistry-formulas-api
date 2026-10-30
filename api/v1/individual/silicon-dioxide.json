@@ -1,0 +1,12 @@
+{
+  "id": "silicon-dioxide",
+  "name": "Silicon dioxide",
+  "formula": "O2Si",
+  "molecular_weight": 60.084,
+  "iupac_name": "dioxosilane",
+  "smiles": "O=[Si]=O",
+  "pubchem_cid": 24261,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24261"
+}

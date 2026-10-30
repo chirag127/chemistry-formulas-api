@@ -1,0 +1,12 @@
+{
+  "id": "zinc-oxide",
+  "name": "Zinc oxide",
+  "formula": "OZn",
+  "molecular_weight": 81.4,
+  "iupac_name": "zinc oxygen(2-)",
+  "smiles": "[O-2].[Zn+2]",
+  "pubchem_cid": 3007857,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3007857"
+}

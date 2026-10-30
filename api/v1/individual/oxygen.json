@@ -1,0 +1,12 @@
+{
+  "id": "oxygen",
+  "name": "Oxygen",
+  "formula": "O2",
+  "molecular_weight": 31.999,
+  "iupac_name": "molecular oxygen",
+  "smiles": "O=O",
+  "pubchem_cid": 977,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/977"
+}

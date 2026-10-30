@@ -1,0 +1,12 @@
+{
+  "id": "methionine",
+  "name": "Methionine",
+  "formula": "C5H11NO2S",
+  "molecular_weight": 149.21,
+  "iupac_name": "(2S)-2-amino-4-methylsulfanylbutanoic acid",
+  "smiles": "CSCCC(C(=O)O)N",
+  "pubchem_cid": 6137,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6137"
+}

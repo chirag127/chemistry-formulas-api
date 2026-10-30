@@ -1,0 +1,12 @@
+{
+  "id": "sodium-chloride",
+  "name": "Sodium chloride",
+  "formula": "ClNa",
+  "molecular_weight": 58.44,
+  "iupac_name": "sodium chloride",
+  "smiles": "[Na+].[Cl-]",
+  "pubchem_cid": 5234,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5234"
+}

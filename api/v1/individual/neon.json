@@ -1,0 +1,12 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "formula": "Ne",
+  "molecular_weight": 20.18,
+  "iupac_name": "neon",
+  "smiles": "[Ne]",
+  "pubchem_cid": 23935,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23935"
+}

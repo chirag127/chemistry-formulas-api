@@ -1,0 +1,12 @@
+{
+  "id": "ammonia",
+  "name": "Ammonia",
+  "formula": "H3N",
+  "molecular_weight": 17.031,
+  "iupac_name": "azane",
+  "smiles": "N",
+  "pubchem_cid": 222,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/222"
+}

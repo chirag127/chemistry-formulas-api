@@ -1,0 +1,12 @@
+{
+  "id": "ethanol",
+  "name": "Ethanol",
+  "formula": "C2H6O",
+  "molecular_weight": 46.07,
+  "iupac_name": "ethanol",
+  "smiles": "CCO",
+  "pubchem_cid": 702,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/702"
+}

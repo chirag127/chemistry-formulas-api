@@ -1,0 +1,12 @@
+{
+  "id": "glycerol",
+  "name": "Glycerol",
+  "formula": "C3H8O3",
+  "molecular_weight": 92.09,
+  "iupac_name": "propane-1,2,3-triol",
+  "smiles": "C(C(CO)O)O",
+  "pubchem_cid": 753,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/753"
+}

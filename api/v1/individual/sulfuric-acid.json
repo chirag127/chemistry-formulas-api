@@ -1,0 +1,12 @@
+{
+  "id": "sulfuric-acid",
+  "name": "Sulfuric acid",
+  "formula": "H2O4S",
+  "molecular_weight": 98.08,
+  "iupac_name": "sulfuric acid",
+  "smiles": "OS(=O)(=O)O",
+  "pubchem_cid": 1118,
+  "category": "acid",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1118"
+}

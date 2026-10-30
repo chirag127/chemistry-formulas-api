@@ -1,0 +1,12 @@
+{
+  "id": "formaldehyde",
+  "name": "Formaldehyde",
+  "formula": "CH2O",
+  "molecular_weight": 30.026,
+  "iupac_name": "formaldehyde",
+  "smiles": "C=O",
+  "pubchem_cid": 712,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/712"
+}

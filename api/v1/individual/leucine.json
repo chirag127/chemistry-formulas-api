@@ -1,0 +1,12 @@
+{
+  "id": "leucine",
+  "name": "Leucine",
+  "formula": "C6H13NO2",
+  "molecular_weight": 131.17,
+  "iupac_name": "(2S)-2-amino-4-methylpentanoic acid",
+  "smiles": "CC(C)CC(C(=O)O)N",
+  "pubchem_cid": 6106,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6106"
+}

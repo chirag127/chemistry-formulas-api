@@ -1,0 +1,12 @@
+{
+  "id": "butane",
+  "name": "Butane",
+  "formula": "C4H10",
+  "molecular_weight": 58.12,
+  "iupac_name": "butane",
+  "smiles": "CCCC",
+  "pubchem_cid": 7843,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/7843"
+}

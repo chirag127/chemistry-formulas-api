@@ -1,0 +1,12 @@
+{
+  "id": "salicylic-acid",
+  "name": "Salicylic acid",
+  "formula": "C7H6O3",
+  "molecular_weight": 138.12,
+  "iupac_name": "2-hydroxybenzoic acid",
+  "smiles": "C1=CC=C(C(=C1)C(=O)O)O",
+  "pubchem_cid": 338,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/338"
+}

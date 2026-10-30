@@ -1,0 +1,12 @@
+{
+  "id": "titanium-dioxide",
+  "name": "Titanium dioxide",
+  "formula": "O2Ti",
+  "molecular_weight": 79.866,
+  "iupac_name": "dioxotitanium",
+  "smiles": "O=[Ti]=O",
+  "pubchem_cid": 26042,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/26042"
+}

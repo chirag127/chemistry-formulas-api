@@ -1,0 +1,12 @@
+{
+  "id": "copper-ii-oxide",
+  "name": "Copper(II) oxide",
+  "formula": "CuO",
+  "molecular_weight": 79.55,
+  "iupac_name": "copper oxygen(2-)",
+  "smiles": "[O-2].[Cu+2]",
+  "pubchem_cid": 164827,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/164827"
+}

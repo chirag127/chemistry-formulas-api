@@ -1,0 +1,668 @@
+[
+  {
+    "id": "acetaldehyde",
+    "name": "Acetaldehyde",
+    "formula": "C2H4O",
+    "category": "organic"
+  },
+  {
+    "id": "acetic-acid",
+    "name": "Acetic acid",
+    "formula": "C2H4O2",
+    "category": "organic"
+  },
+  {
+    "id": "acetone",
+    "name": "Acetone",
+    "formula": "C3H6O",
+    "category": "organic"
+  },
+  {
+    "id": "alanine",
+    "name": "Alanine",
+    "formula": "C3H7NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "aluminum-oxide",
+    "name": "Aluminum oxide",
+    "formula": "Al2O3",
+    "category": "oxide"
+  },
+  {
+    "id": "ammonia",
+    "name": "Ammonia",
+    "formula": "H3N",
+    "category": "inorganic"
+  },
+  {
+    "id": "ammonium-nitrate",
+    "name": "Ammonium nitrate",
+    "formula": "H4N2O3",
+    "category": "salt"
+  },
+  {
+    "id": "ammonium-sulfate",
+    "name": "Ammonium sulfate",
+    "formula": "H8N2O4S",
+    "category": "salt"
+  },
+  {
+    "id": "arginine",
+    "name": "Arginine",
+    "formula": "C6H14N4O2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "argon",
+    "name": "Argon",
+    "formula": "Ar",
+    "category": "element"
+  },
+  {
+    "id": "ascorbic-acid",
+    "name": "Ascorbic acid",
+    "formula": "C6H8O6",
+    "category": "biomolecule"
+  },
+  {
+    "id": "asparagine",
+    "name": "Asparagine",
+    "formula": "C4H8N2O3",
+    "category": "biomolecule"
+  },
+  {
+    "id": "aspartic-acid",
+    "name": "Aspartic acid",
+    "formula": "C4H7NO4",
+    "category": "biomolecule"
+  },
+  {
+    "id": "aspirin",
+    "name": "Aspirin",
+    "formula": "C9H8O4",
+    "category": "organic"
+  },
+  {
+    "id": "barium-chloride",
+    "name": "Barium chloride",
+    "formula": "BaCl2",
+    "category": "salt"
+  },
+  {
+    "id": "benzene",
+    "name": "Benzene",
+    "formula": "C6H6",
+    "category": "organic"
+  },
+  {
+    "id": "benzoic-acid",
+    "name": "Benzoic acid",
+    "formula": "C7H6O2",
+    "category": "organic"
+  },
+  {
+    "id": "boric-acid",
+    "name": "Boric acid",
+    "formula": "BH3O3",
+    "category": "acid"
+  },
+  {
+    "id": "bromine",
+    "name": "Bromine",
+    "formula": "Br2",
+    "category": "element"
+  },
+  {
+    "id": "butane",
+    "name": "Butane",
+    "formula": "C4H10",
+    "category": "organic"
+  },
+  {
+    "id": "caffeine",
+    "name": "Caffeine",
+    "formula": "C8H10N4O2",
+    "category": "organic"
+  },
+  {
+    "id": "calcium-carbonate",
+    "name": "Calcium carbonate",
+    "formula": "CCaO3",
+    "category": "salt"
+  },
+  {
+    "id": "calcium-chloride",
+    "name": "Calcium chloride",
+    "formula": "CaCl2",
+    "category": "salt"
+  },
+  {
+    "id": "calcium-hydroxide",
+    "name": "Calcium hydroxide",
+    "formula": "CaH2O2",
+    "category": "base"
+  },
+  {
+    "id": "carbon-dioxide",
+    "name": "Carbon dioxide",
+    "formula": "CO2",
+    "category": "inorganic"
+  },
+  {
+    "id": "carbon-monoxide",
+    "name": "Carbon monoxide",
+    "formula": "CO",
+    "category": "inorganic"
+  },
+  {
+    "id": "chlorine",
+    "name": "Chlorine",
+    "formula": "Cl2",
+    "category": "element"
+  },
+  {
+    "id": "citric-acid",
+    "name": "Citric acid",
+    "formula": "C6H8O7",
+    "category": "organic"
+  },
+  {
+    "id": "copper-ii-oxide",
+    "name": "Copper(II) oxide",
+    "formula": "CuO",
+    "category": "oxide"
+  },
+  {
+    "id": "copper-ii-sulfate",
+    "name": "Copper(II) sulfate",
+    "formula": "CuO4S",
+    "category": "salt"
+  },
+  {
+    "id": "cysteine",
+    "name": "Cysteine",
+    "formula": "C3H7NO2S",
+    "category": "biomolecule"
+  },
+  {
+    "id": "ethane",
+    "name": "Ethane",
+    "formula": "C2H6",
+    "category": "organic"
+  },
+  {
+    "id": "ethanol",
+    "name": "Ethanol",
+    "formula": "C2H6O",
+    "category": "organic"
+  },
+  {
+    "id": "ethene",
+    "name": "Ethene",
+    "formula": "C2H4",
+    "category": "organic"
+  },
+  {
+    "id": "ethylene-glycol",
+    "name": "Ethylene glycol",
+    "formula": "C2H6O2",
+    "category": "organic"
+  },
+  {
+    "id": "formaldehyde",
+    "name": "Formaldehyde",
+    "formula": "CH2O",
+    "category": "organic"
+  },
+  {
+    "id": "fructose",
+    "name": "Fructose",
+    "formula": "C6H12O6",
+    "category": "biomolecule"
+  },
+  {
+    "id": "glucose",
+    "name": "Glucose",
+    "formula": "C6H12O6",
+    "category": "biomolecule"
+  },
+  {
+    "id": "glutamic-acid",
+    "name": "Glutamic acid",
+    "formula": "C5H9NO4",
+    "category": "biomolecule"
+  },
+  {
+    "id": "glutamine",
+    "name": "Glutamine",
+    "formula": "C5H10N2O3",
+    "category": "biomolecule"
+  },
+  {
+    "id": "glycerol",
+    "name": "Glycerol",
+    "formula": "C3H8O3",
+    "category": "organic"
+  },
+  {
+    "id": "glycine",
+    "name": "Glycine",
+    "formula": "C2H5NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "helium",
+    "name": "Helium",
+    "formula": "He",
+    "category": "element"
+  },
+  {
+    "id": "hexane",
+    "name": "Hexane",
+    "formula": "C6H14",
+    "category": "organic"
+  },
+  {
+    "id": "histidine",
+    "name": "Histidine",
+    "formula": "C6H9N3O2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "hydrochloric-acid",
+    "name": "Hydrochloric acid",
+    "formula": "ClH",
+    "category": "acid"
+  },
+  {
+    "id": "hydrogen",
+    "name": "Hydrogen",
+    "formula": "H2",
+    "category": "element"
+  },
+  {
+    "id": "hydrogen-peroxide",
+    "name": "Hydrogen peroxide",
+    "formula": "H2O2",
+    "category": "inorganic"
+  },
+  {
+    "id": "ibuprofen",
+    "name": "Ibuprofen",
+    "formula": "C13H18O2",
+    "category": "organic"
+  },
+  {
+    "id": "iodine",
+    "name": "Iodine",
+    "formula": "I2",
+    "category": "element"
+  },
+  {
+    "id": "iron-ii-sulfate",
+    "name": "Iron(II) sulfate",
+    "formula": "FeO4S",
+    "category": "salt"
+  },
+  {
+    "id": "iron-iii-chloride",
+    "name": "Iron(III) chloride",
+    "formula": "Cl3Fe",
+    "category": "salt"
+  },
+  {
+    "id": "isoleucine",
+    "name": "Isoleucine",
+    "formula": "C6H13NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "lactic-acid",
+    "name": "Lactic acid",
+    "formula": "C3H6O3",
+    "category": "organic"
+  },
+  {
+    "id": "lactose",
+    "name": "Lactose",
+    "formula": "C12H22O11",
+    "category": "biomolecule"
+  },
+  {
+    "id": "lead-ii-nitrate",
+    "name": "Lead(II) nitrate",
+    "formula": "N2O6Pb",
+    "category": "salt"
+  },
+  {
+    "id": "leucine",
+    "name": "Leucine",
+    "formula": "C6H13NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "lysine",
+    "name": "Lysine",
+    "formula": "C6H14N2O2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "magnesium-oxide",
+    "name": "Magnesium oxide",
+    "formula": "MgO",
+    "category": "oxide"
+  },
+  {
+    "id": "magnesium-sulfate",
+    "name": "Magnesium sulfate",
+    "formula": "MgO4S",
+    "category": "salt"
+  },
+  {
+    "id": "methane",
+    "name": "Methane",
+    "formula": "CH4",
+    "category": "organic"
+  },
+  {
+    "id": "methanol",
+    "name": "Methanol",
+    "formula": "CH4O",
+    "category": "organic"
+  },
+  {
+    "id": "methionine",
+    "name": "Methionine",
+    "formula": "C5H11NO2S",
+    "category": "biomolecule"
+  },
+  {
+    "id": "neon",
+    "name": "Neon",
+    "formula": "Ne",
+    "category": "element"
+  },
+  {
+    "id": "nicotine",
+    "name": "Nicotine",
+    "formula": "C10H14N2",
+    "category": "organic"
+  },
+  {
+    "id": "nitric-acid",
+    "name": "Nitric acid",
+    "formula": "HNO3",
+    "category": "acid"
+  },
+  {
+    "id": "nitrogen",
+    "name": "Nitrogen",
+    "formula": "N2",
+    "category": "element"
+  },
+  {
+    "id": "nitrogen-dioxide",
+    "name": "Nitrogen dioxide",
+    "formula": "NO2",
+    "category": "inorganic"
+  },
+  {
+    "id": "nitrous-oxide",
+    "name": "Nitrous oxide",
+    "formula": "N2O",
+    "category": "inorganic"
+  },
+  {
+    "id": "octane",
+    "name": "Octane",
+    "formula": "C8H18",
+    "category": "organic"
+  },
+  {
+    "id": "oxalic-acid",
+    "name": "Oxalic acid",
+    "formula": "C2H2O4",
+    "category": "organic"
+  },
+  {
+    "id": "oxygen",
+    "name": "Oxygen",
+    "formula": "O2",
+    "category": "element"
+  },
+  {
+    "id": "ozone",
+    "name": "Ozone",
+    "formula": "O3",
+    "category": "inorganic"
+  },
+  {
+    "id": "paracetamol",
+    "name": "Paracetamol",
+    "formula": "C8H9NO2",
+    "category": "organic"
+  },
+  {
+    "id": "pentane",
+    "name": "Pentane",
+    "formula": "C5H12",
+    "category": "organic"
+  },
+  {
+    "id": "phenol",
+    "name": "Phenol",
+    "formula": "C6H6O",
+    "category": "organic"
+  },
+  {
+    "id": "phenylalanine",
+    "name": "Phenylalanine",
+    "formula": "C9H11NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "phosphoric-acid",
+    "name": "Phosphoric acid",
+    "formula": "H3O4P",
+    "category": "acid"
+  },
+  {
+    "id": "potassium-chloride",
+    "name": "Potassium chloride",
+    "formula": "ClK",
+    "category": "salt"
+  },
+  {
+    "id": "potassium-hydroxide",
+    "name": "Potassium hydroxide",
+    "formula": "HKO",
+    "category": "base"
+  },
+  {
+    "id": "potassium-iodide",
+    "name": "Potassium iodide",
+    "formula": "IK",
+    "category": "salt"
+  },
+  {
+    "id": "potassium-permanganate",
+    "name": "Potassium permanganate",
+    "formula": "KMnO4",
+    "category": "salt"
+  },
+  {
+    "id": "proline",
+    "name": "Proline",
+    "formula": "C5H9NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "propan-1-ol",
+    "name": "Propan-1-ol",
+    "formula": "C3H8O",
+    "category": "organic"
+  },
+  {
+    "id": "propan-2-ol",
+    "name": "Propan-2-ol",
+    "formula": "C3H8O",
+    "category": "organic"
+  },
+  {
+    "id": "propane",
+    "name": "Propane",
+    "formula": "C3H8",
+    "category": "organic"
+  },
+  {
+    "id": "propene",
+    "name": "Propene",
+    "formula": "C3H6",
+    "category": "organic"
+  },
+  {
+    "id": "salicylic-acid",
+    "name": "Salicylic acid",
+    "formula": "C7H6O3",
+    "category": "organic"
+  },
+  {
+    "id": "serine",
+    "name": "Serine",
+    "formula": "C3H7NO3",
+    "category": "biomolecule"
+  },
+  {
+    "id": "silicon-dioxide",
+    "name": "Silicon dioxide",
+    "formula": "O2Si",
+    "category": "oxide"
+  },
+  {
+    "id": "silver-nitrate",
+    "name": "Silver nitrate",
+    "formula": "AgNO3",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-bicarbonate",
+    "name": "Sodium bicarbonate",
+    "formula": "CHNaO3",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-carbonate",
+    "name": "Sodium carbonate",
+    "formula": "CNa2O3",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-chloride",
+    "name": "Sodium chloride",
+    "formula": "ClNa",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-fluoride",
+    "name": "Sodium fluoride",
+    "formula": "FNa",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-hydroxide",
+    "name": "Sodium hydroxide",
+    "formula": "HNaO",
+    "category": "base"
+  },
+  {
+    "id": "sodium-hypochlorite",
+    "name": "Sodium hypochlorite",
+    "formula": "ClNaO",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-nitrate",
+    "name": "Sodium nitrate",
+    "formula": "NNaO3",
+    "category": "salt"
+  },
+  {
+    "id": "sodium-sulfate",
+    "name": "Sodium sulfate",
+    "formula": "Na2O4S",
+    "category": "salt"
+  },
+  {
+    "id": "sucrose",
+    "name": "Sucrose",
+    "formula": "C12H22O11",
+    "category": "biomolecule"
+  },
+  {
+    "id": "sulfur-dioxide",
+    "name": "Sulfur dioxide",
+    "formula": "O2S",
+    "category": "inorganic"
+  },
+  {
+    "id": "sulfuric-acid",
+    "name": "Sulfuric acid",
+    "formula": "H2O4S",
+    "category": "acid"
+  },
+  {
+    "id": "threonine",
+    "name": "Threonine",
+    "formula": "C4H9NO3",
+    "category": "biomolecule"
+  },
+  {
+    "id": "titanium-dioxide",
+    "name": "Titanium dioxide",
+    "formula": "O2Ti",
+    "category": "oxide"
+  },
+  {
+    "id": "toluene",
+    "name": "Toluene",
+    "formula": "C7H8",
+    "category": "organic"
+  },
+  {
+    "id": "tryptophan",
+    "name": "Tryptophan",
+    "formula": "C11H12N2O2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "tyrosine",
+    "name": "Tyrosine",
+    "formula": "C9H11NO3",
+    "category": "biomolecule"
+  },
+  {
+    "id": "urea",
+    "name": "Urea",
+    "formula": "CH4N2O",
+    "category": "organic"
+  },
+  {
+    "id": "valine",
+    "name": "Valine",
+    "formula": "C5H11NO2",
+    "category": "biomolecule"
+  },
+  {
+    "id": "water",
+    "name": "Water",
+    "formula": "H2O",
+    "category": "inorganic"
+  },
+  {
+    "id": "zinc-oxide",
+    "name": "Zinc oxide",
+    "formula": "OZn",
+    "category": "oxide"
+  }
+]

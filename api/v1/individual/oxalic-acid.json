@@ -1,0 +1,12 @@
+{
+  "id": "oxalic-acid",
+  "name": "Oxalic acid",
+  "formula": "C2H2O4",
+  "molecular_weight": 90.03,
+  "iupac_name": "oxalic acid",
+  "smiles": "C(=O)(C(=O)O)O",
+  "pubchem_cid": 971,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/971"
+}

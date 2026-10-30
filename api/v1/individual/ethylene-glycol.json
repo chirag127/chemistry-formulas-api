@@ -1,0 +1,12 @@
+{
+  "id": "ethylene-glycol",
+  "name": "Ethylene glycol",
+  "formula": "C2H6O2",
+  "molecular_weight": 62.07,
+  "iupac_name": "ethane-1,2-diol",
+  "smiles": "C(CO)O",
+  "pubchem_cid": 174,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/174"
+}

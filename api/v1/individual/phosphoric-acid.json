@@ -1,0 +1,12 @@
+{
+  "id": "phosphoric-acid",
+  "name": "Phosphoric acid",
+  "formula": "H3O4P",
+  "molecular_weight": 97.995,
+  "iupac_name": "phosphoric acid",
+  "smiles": "OP(=O)(O)O",
+  "pubchem_cid": 1004,
+  "category": "acid",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1004"
+}

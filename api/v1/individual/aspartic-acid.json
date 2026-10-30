@@ -1,0 +1,12 @@
+{
+  "id": "aspartic-acid",
+  "name": "Aspartic acid",
+  "formula": "C4H7NO4",
+  "molecular_weight": 133.1,
+  "iupac_name": "(2S)-2-aminobutanedioic acid",
+  "smiles": "C(C(C(=O)O)N)C(=O)O",
+  "pubchem_cid": 5960,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5960"
+}

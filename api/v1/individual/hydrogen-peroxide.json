@@ -1,0 +1,12 @@
+{
+  "id": "hydrogen-peroxide",
+  "name": "Hydrogen peroxide",
+  "formula": "H2O2",
+  "molecular_weight": 34.015,
+  "iupac_name": "hydrogen peroxide",
+  "smiles": "OO",
+  "pubchem_cid": 784,
+  "category": "inorganic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/784"
+}

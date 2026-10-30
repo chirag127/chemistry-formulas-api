@@ -1,0 +1,12 @@
+{
+  "id": "silver-nitrate",
+  "name": "Silver nitrate",
+  "formula": "AgNO3",
+  "molecular_weight": 169.873,
+  "iupac_name": "silver nitrate",
+  "smiles": "[N+](=O)([O-])[O-].[Ag+]",
+  "pubchem_cid": 24470,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24470"
+}

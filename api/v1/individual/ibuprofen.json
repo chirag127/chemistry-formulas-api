@@ -1,0 +1,12 @@
+{
+  "id": "ibuprofen",
+  "name": "Ibuprofen",
+  "formula": "C13H18O2",
+  "molecular_weight": 206.28,
+  "iupac_name": "2-[4-(2-methylpropyl)phenyl]propanoic acid",
+  "smiles": "CC(C)CC1=CC=C(C=C1)C(C)C(=O)O",
+  "pubchem_cid": 3672,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/3672"
+}

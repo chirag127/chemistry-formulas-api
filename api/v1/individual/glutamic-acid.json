@@ -1,0 +1,12 @@
+{
+  "id": "glutamic-acid",
+  "name": "Glutamic acid",
+  "formula": "C5H9NO4",
+  "molecular_weight": 147.13,
+  "iupac_name": "(2S)-2-aminopentanedioic acid",
+  "smiles": "C(CC(=O)O)C(C(=O)O)N",
+  "pubchem_cid": 33032,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/33032"
+}

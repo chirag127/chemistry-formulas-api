@@ -1,0 +1,12 @@
+{
+  "id": "potassium-chloride",
+  "name": "Potassium chloride",
+  "formula": "ClK",
+  "molecular_weight": 74.55,
+  "iupac_name": "potassium chloride",
+  "smiles": "[Cl-].[K+]",
+  "pubchem_cid": 4873,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4873"
+}

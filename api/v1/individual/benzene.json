@@ -1,0 +1,12 @@
+{
+  "id": "benzene",
+  "name": "Benzene",
+  "formula": "C6H6",
+  "molecular_weight": 78.11,
+  "iupac_name": "benzene",
+  "smiles": "C1=CC=CC=C1",
+  "pubchem_cid": 241,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/241"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "propan-1-ol",
+  "name": "Propan-1-ol",
+  "formula": "C3H8O",
+  "molecular_weight": 60.1,
+  "iupac_name": "propan-1-ol",
+  "smiles": "CCCO",
+  "pubchem_cid": 1031,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/1031"
+}

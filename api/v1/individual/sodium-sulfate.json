@@ -1,0 +1,12 @@
+{
+  "id": "sodium-sulfate",
+  "name": "Sodium sulfate",
+  "formula": "Na2O4S",
+  "molecular_weight": 142.04,
+  "iupac_name": "disodium;sulfate",
+  "smiles": "[O-]S(=O)(=O)[O-].[Na+].[Na+]",
+  "pubchem_cid": 24436,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24436"
+}

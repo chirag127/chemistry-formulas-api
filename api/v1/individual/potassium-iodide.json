@@ -1,0 +1,12 @@
+{
+  "id": "potassium-iodide",
+  "name": "Potassium iodide",
+  "formula": "IK",
+  "molecular_weight": 166.0028,
+  "iupac_name": "potassium iodide",
+  "smiles": "[K+].[I-]",
+  "pubchem_cid": 4875,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/4875"
+}

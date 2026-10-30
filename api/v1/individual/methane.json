@@ -1,0 +1,12 @@
+{
+  "id": "methane",
+  "name": "Methane",
+  "formula": "CH4",
+  "molecular_weight": 16.043,
+  "iupac_name": "methane",
+  "smiles": "C",
+  "pubchem_cid": 297,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/297"
+}

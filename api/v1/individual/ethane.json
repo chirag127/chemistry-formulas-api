@@ -1,0 +1,12 @@
+{
+  "id": "ethane",
+  "name": "Ethane",
+  "formula": "C2H6",
+  "molecular_weight": 30.07,
+  "iupac_name": "ethane",
+  "smiles": "CC",
+  "pubchem_cid": 6324,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6324"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ascorbic-acid",
+  "name": "Ascorbic acid",
+  "formula": "C6H8O6",
+  "molecular_weight": 176.12,
+  "iupac_name": "(2R)-2-[(1S)-1,2-dihydroxyethyl]-3,4-dihydroxy-2H-furan-5-one",
+  "smiles": "C(C(C1C(=C(C(=O)O1)O)O)O)O",
+  "pubchem_cid": 54670067,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/54670067"
+}

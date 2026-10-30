@@ -1,0 +1,12 @@
+{
+  "id": "proline",
+  "name": "Proline",
+  "formula": "C5H9NO2",
+  "molecular_weight": 115.13,
+  "iupac_name": "(2S)-pyrrolidine-2-carboxylic acid",
+  "smiles": "C1CC(NC1)C(=O)O",
+  "pubchem_cid": 145742,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/145742"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "propane",
+  "name": "Propane",
+  "formula": "C3H8",
+  "molecular_weight": 44.1,
+  "iupac_name": "propane",
+  "smiles": "CCC",
+  "pubchem_cid": 6334,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6334"
+}

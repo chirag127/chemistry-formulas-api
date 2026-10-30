@@ -1,0 +1,12 @@
+{
+  "id": "tryptophan",
+  "name": "Tryptophan",
+  "formula": "C11H12N2O2",
+  "molecular_weight": 204.22,
+  "iupac_name": "(2S)-2-amino-3-(1H-indol-3-yl)propanoic acid",
+  "smiles": "C1=CC=C2C(=C1)C(=CN2)CC(C(=O)O)N",
+  "pubchem_cid": 6305,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6305"
+}

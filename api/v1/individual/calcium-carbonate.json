@@ -1,0 +1,12 @@
+{
+  "id": "calcium-carbonate",
+  "name": "Calcium carbonate",
+  "formula": "CCaO3",
+  "molecular_weight": 100.09,
+  "iupac_name": "calcium carbonate",
+  "smiles": "C(=O)([O-])[O-].[Ca+2]",
+  "pubchem_cid": 10112,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/10112"
+}

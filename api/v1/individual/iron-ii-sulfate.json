@@ -1,0 +1,12 @@
+{
+  "id": "iron-ii-sulfate",
+  "name": "Iron(II) sulfate",
+  "formula": "FeO4S",
+  "molecular_weight": 151.91,
+  "iupac_name": "iron(2+) sulfate",
+  "smiles": "[O-]S(=O)(=O)[O-].[Fe+2]",
+  "pubchem_cid": 24393,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/24393"
+}

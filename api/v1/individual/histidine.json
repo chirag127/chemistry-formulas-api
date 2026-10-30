@@ -1,0 +1,12 @@
+{
+  "id": "histidine",
+  "name": "Histidine",
+  "formula": "C6H9N3O2",
+  "molecular_weight": 155.15,
+  "iupac_name": "(2S)-2-amino-3-(1H-imidazol-5-yl)propanoic acid",
+  "smiles": "C1=C(NC=N1)CC(C(=O)O)N",
+  "pubchem_cid": 6274,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6274"
+}

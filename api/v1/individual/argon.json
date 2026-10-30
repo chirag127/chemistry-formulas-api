@@ -1,0 +1,12 @@
+{
+  "id": "argon",
+  "name": "Argon",
+  "formula": "Ar",
+  "molecular_weight": 39.9,
+  "iupac_name": "argon",
+  "smiles": "[Ar]",
+  "pubchem_cid": 23968,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23968"
+}

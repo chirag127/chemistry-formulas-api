@@ -1,0 +1,12 @@
+{
+  "id": "tyrosine",
+  "name": "Tyrosine",
+  "formula": "C9H11NO3",
+  "molecular_weight": 181.19,
+  "iupac_name": "(2S)-2-amino-3-(4-hydroxyphenyl)propanoic acid",
+  "smiles": "C1=CC(=CC=C1CC(C(=O)O)N)O",
+  "pubchem_cid": 6057,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6057"
+}

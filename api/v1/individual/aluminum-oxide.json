@@ -1,0 +1,12 @@
+{
+  "id": "aluminum-oxide",
+  "name": "Aluminum oxide",
+  "formula": "Al2O3",
+  "molecular_weight": 101.961,
+  "iupac_name": "dialuminum;tris(oxygen(2-))",
+  "smiles": "[O-2].[O-2].[O-2].[Al+3].[Al+3]",
+  "pubchem_cid": 9989226,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/9989226"
+}

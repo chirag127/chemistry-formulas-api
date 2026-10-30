@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://chirag127.github.io/chemistry-formulas-api/schemas/data.json",
+  "title": "Chemistry Formulas",
+  "type": "array",
+  "minItems": 80,
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "name",
+      "formula",
+      "molecular_weight",
+      "iupac_name",
+      "smiles",
+      "pubchem_cid",
+      "category",
+      "source",
+      "source_url"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 2
+      },
+      "formula": {
+        "type": "string",
+        "minLength": 1
+      },
+      "molecular_weight": {
+        "type": "number",
+        "exclusiveMinimum": 0
+      },
+      "iupac_name": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "smiles": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "pubchem_cid": {
+        "type": "integer",
+        "minimum": 1
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "acid",
+          "base",
+          "biomolecule",
+          "element",
+          "inorganic",
+          "organic",
+          "oxide",
+          "salt"
+        ]
+      },
+      "source": {
+        "type": "string",
+        "minLength": 2
+      },
+      "source_url": {
+        "type": "string",
+        "format": "uri"
+      }
+    }
+  }
+}

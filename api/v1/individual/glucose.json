@@ -1,0 +1,12 @@
+{
+  "id": "glucose",
+  "name": "Glucose",
+  "formula": "C6H12O6",
+  "molecular_weight": 180.16,
+  "iupac_name": "(3R,4S,5S,6R)-6-(hydroxymethyl)oxane-2,3,4,5-tetrol",
+  "smiles": "C(C1C(C(C(C(O1)O)O)O)O)O",
+  "pubchem_cid": 5793,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5793"
+}

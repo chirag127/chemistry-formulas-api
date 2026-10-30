@@ -1,0 +1,12 @@
+{
+  "id": "sodium-hypochlorite",
+  "name": "Sodium hypochlorite",
+  "formula": "ClNaO",
+  "molecular_weight": 74.44,
+  "iupac_name": "sodium hypochlorite",
+  "smiles": "[O-]Cl.[Na+]",
+  "pubchem_cid": 23665760,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/23665760"
+}

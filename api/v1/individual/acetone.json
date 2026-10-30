@@ -1,0 +1,12 @@
+{
+  "id": "acetone",
+  "name": "Acetone",
+  "formula": "C3H6O",
+  "molecular_weight": 58.08,
+  "iupac_name": "propan-2-one",
+  "smiles": "CC(=O)C",
+  "pubchem_cid": 180,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/180"
+}

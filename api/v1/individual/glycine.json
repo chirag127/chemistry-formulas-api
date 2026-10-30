@@ -1,0 +1,12 @@
+{
+  "id": "glycine",
+  "name": "Glycine",
+  "formula": "C2H5NO2",
+  "molecular_weight": 75.07,
+  "iupac_name": "2-aminoacetic acid",
+  "smiles": "C(C(=O)O)N",
+  "pubchem_cid": 750,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/750"
+}

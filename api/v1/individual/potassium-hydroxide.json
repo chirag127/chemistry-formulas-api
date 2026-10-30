@@ -1,0 +1,12 @@
+{
+  "id": "potassium-hydroxide",
+  "name": "Potassium hydroxide",
+  "formula": "HKO",
+  "molecular_weight": 56.106,
+  "iupac_name": "potassium hydroxide",
+  "smiles": "[OH-].[K+]",
+  "pubchem_cid": 14797,
+  "category": "base",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14797"
+}

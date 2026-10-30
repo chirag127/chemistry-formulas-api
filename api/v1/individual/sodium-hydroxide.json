@@ -1,0 +1,12 @@
+{
+  "id": "sodium-hydroxide",
+  "name": "Sodium hydroxide",
+  "formula": "HNaO",
+  "molecular_weight": 39.997,
+  "iupac_name": "sodium hydroxide",
+  "smiles": "[OH-].[Na+]",
+  "pubchem_cid": 14798,
+  "category": "base",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14798"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "iodine",
+  "name": "Iodine",
+  "formula": "I2",
+  "molecular_weight": 253.8089,
+  "iupac_name": "molecular iodine",
+  "smiles": "II",
+  "pubchem_cid": 807,
+  "category": "element",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/807"
+}

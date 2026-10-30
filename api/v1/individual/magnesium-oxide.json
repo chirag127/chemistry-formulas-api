@@ -1,0 +1,12 @@
+{
+  "id": "magnesium-oxide",
+  "name": "Magnesium oxide",
+  "formula": "MgO",
+  "molecular_weight": 40.305,
+  "iupac_name": "oxomagnesium",
+  "smiles": "O=[Mg]",
+  "pubchem_cid": 14792,
+  "category": "oxide",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/14792"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "calcium-hydroxide",
+  "name": "Calcium hydroxide",
+  "formula": "CaH2O2",
+  "molecular_weight": 74.09,
+  "iupac_name": "calcium dihydroxide",
+  "smiles": "[OH-].[OH-].[Ca+2]",
+  "pubchem_cid": 6093208,
+  "category": "base",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/6093208"
+}

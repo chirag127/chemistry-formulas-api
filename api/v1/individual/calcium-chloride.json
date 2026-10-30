@@ -1,0 +1,12 @@
+{
+  "id": "calcium-chloride",
+  "name": "Calcium chloride",
+  "formula": "CaCl2",
+  "molecular_weight": 110.98,
+  "iupac_name": "calcium dichloride",
+  "smiles": "[Cl-].[Cl-].[Ca+2]",
+  "pubchem_cid": 5284359,
+  "category": "salt",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5284359"
+}

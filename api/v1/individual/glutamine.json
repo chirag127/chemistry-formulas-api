@@ -1,0 +1,12 @@
+{
+  "id": "glutamine",
+  "name": "Glutamine",
+  "formula": "C5H10N2O3",
+  "molecular_weight": 146.14,
+  "iupac_name": "(2S)-2,5-diamino-5-oxopentanoic acid",
+  "smiles": "C(CC(=O)N)C(C(=O)O)N",
+  "pubchem_cid": 5961,
+  "category": "biomolecule",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/5961"
+}

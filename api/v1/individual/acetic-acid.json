@@ -1,0 +1,12 @@
+{
+  "id": "acetic-acid",
+  "name": "Acetic acid",
+  "formula": "C2H4O2",
+  "molecular_weight": 60.05,
+  "iupac_name": "acetic acid",
+  "smiles": "CC(=O)O",
+  "pubchem_cid": 176,
+  "category": "organic",
+  "source": "PubChem PUG REST (National Library of Medicine)",
+  "source_url": "https://pubchem.ncbi.nlm.nih.gov/compound/176"
+}
